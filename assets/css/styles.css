@@ -339,6 +339,17 @@ img{
   padding: 0 1.5rem;
 }
 
+.starscont{
+  width:80px;
+  height:30px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+.checked{
+  color:gold;
+}
 /*========== MENU ==========*/
 .menu__container{
   grid-template-columns: repeat(2, 1fr);
