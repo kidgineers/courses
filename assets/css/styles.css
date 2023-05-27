@@ -358,7 +358,7 @@ img{
 .courses-container{
   display: grid;
   grid-auto-flow: column;
-  
+  justify-content: center;
 }
 .courses-scroller{
   display: grid;
@@ -460,6 +460,11 @@ img{
   display: flex;
   padding: .625rem .813rem;
   border-radius: 1rem 0 2rem 0;
+}
+
+.contact__button__alone{
+  display:flex;
+  justify-self: center;
 }
 
 /*========== APP ==========*/
